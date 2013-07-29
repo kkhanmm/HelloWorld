@@ -79,7 +79,7 @@ public class CalculatorUI implements TextProvider, SelectionListener {
 
 	private void setupDisplay() {
 		GridData gridData = new GridData(GridData.HORIZONTAL_ALIGN_FILL);
-		display = new Text(shell, SWT.BORDER_SOLID | SWT.RIGHT);
+		display = new Text(shell, SWT.BORDER | SWT.RIGHT);
 		display.setLayoutData(gridData);
 		display.setText("0");
 		display.setEditable(false);
